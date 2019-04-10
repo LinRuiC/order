@@ -1,0 +1,10 @@
+DEBUG=True
+
+# mysql数据库配置
+SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:root@127.0.0.1:3306/order"
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+# 打印所有SQL语句
+SQLALCHEMY_ECHO=True
+SQLALCHEMY_ENCODING='utf-8'
+
+
